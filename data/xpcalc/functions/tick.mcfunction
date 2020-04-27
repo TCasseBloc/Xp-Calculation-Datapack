@@ -1,1 +1,1 @@
-execute as @a run function xpcalc:calc
+execute as @a unless score autoCalculation xpcalc matches 0 run function xpcalc:calc
