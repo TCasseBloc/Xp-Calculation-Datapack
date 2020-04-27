@@ -1,1 +1,1 @@
-execute as @a run function xpcalc:tick
+execute as @a run function xpcalc:calc
