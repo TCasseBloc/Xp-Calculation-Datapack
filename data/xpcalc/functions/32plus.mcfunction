@@ -1,9 +1,9 @@
 scoreboard players operation @s xpCalc.xpP = @s xpCalc.xpLvl
 scoreboard players operation @s xpCalc.xpP *= @s xpCalc.xpLvl
 scoreboard players operation @s xpCalc.xpP *= $4.5 xpCalc.const
-scoreboard players operation @s xpCalc.temp = @s xpCalc.xpLvl
-scoreboard players operation @s xpCalc.temp *= $162.5 xpCalc.const
-scoreboard players operation @s xpCalc.xpP -= @s xpCalc.temp
+scoreboard players operation @s xpCalc = @s xpCalc.xpLvl
+scoreboard players operation @s xpCalc *= $162.5 xpCalc.const
+scoreboard players operation @s xpCalc.xpP -= @s xpCalc
 scoreboard players operation @s xpCalc.xpP /= $10 xpCalc.const
 scoreboard players operation @s xpCalc.xpP += $2220 xpCalc.const
 scoreboard players operation @s xpCalc.xpP += @s xpCalc.xpRelP
