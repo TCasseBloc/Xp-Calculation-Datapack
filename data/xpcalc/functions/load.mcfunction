@@ -3,6 +3,7 @@ scoreboard objectives add xpCalc.xpRelP dummy
 scoreboard objectives add xpCalc.xpP dummy
 scoreboard objectives add xpCalc.const dummy
 scoreboard objectives add xpCalc dummy
+scoreboard players set autoCalculation xpCalc 0
 scoreboard players set $6 xpCalc.const 6
 scoreboard players set $360 xpCalc.const 360
 scoreboard players set $2220 xpCalc.const 2220
